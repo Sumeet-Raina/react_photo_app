@@ -7,7 +7,7 @@ import Photo from './photoComponent';
 function App() {
   return (
     <div className="App">
-      <p>Photo App</p>
+      <p className="para">Photo App</p>
       <PhotoOne />
       <PhotoTwo />
       <Photo />
