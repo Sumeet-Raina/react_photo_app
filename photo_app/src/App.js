@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import {Photo} from './photoComponent';
+import {PhotoOne} from './photoComponent';
+import {PhotoTwo} from './photoComponent';
+import Photo from './photoComponent';
 
 function App() {
   return (
     <div className="App">
       <p>Photo App</p>
+      <PhotoOne />
+      <PhotoTwo />
       <Photo />
     </div>
   );
